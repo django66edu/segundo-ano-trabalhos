@@ -1,0 +1,147 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container1 div{
+    height: 100px;
+    width: 100%;
+}
+
+.elementos {
+    background-color: lightseagreen;
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-size: 75px;
+}
+
+.container2 div{
+    height: 100px;
+    width: 100%;
+}
+
+
+.elementos2 {
+    background-color: rgb(178, 32, 32);
+    display: inline;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-size: 75px;
+}
+
+
+.elementos3 {
+    background-color: rgb(178, 32, 32);
+    display: inline-block;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-size: 75px;
+}
+
+.elementos4 {
+    background-color: rgb(0, 129, 28);
+    display: none;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-size: 75px;
+}
+
+.container5 {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-size: 75px;
+}
+
+.elementos5 {
+    background-color: rgb(55, 10, 255);
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-size: 75px;
+    margin: 5px;
+}
+
+.container6 {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-size: 75px;
+}
+
+.elementos6 {
+    background-color: rgb(55, 10, 255);
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-size: 75px;
+    margin: 5px;
+}
+
+.container7 {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-size: 75px;
+}
+
+.elementos7 {
+    background-color: rgb(0, 234, 255);
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-size: 75px;
+    margin: 5px;
+}
+
+.container8 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-size: 75px;
+}
+
+.elementos8 {
+    background-color: rgb(255, 0, 255);
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-size: 75px;
+    margin: 5px;
+}
+
+.container9 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-size: 75px;
+}
+
+.elementos9 {
+    background-color: rgb(114, 11, 114);
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-size: 75px;
+    margin: 5px;
+    padding: 500px;
+}
+
+.container10 {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-size: 75px;
+}
+
+.elementos10 {
+    background-color: rgb(114, 11, 114);
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-size: 75px;
+    margin: 5px;
+}
+

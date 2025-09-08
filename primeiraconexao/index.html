@@ -1,0 +1,32 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="pt-br">
+ 
+<head>
+  <meta charset="UTF-8">
+  <title>Conexão MySQL</title>
+</head>
+ 
+<body>
+  <h1>Buscar dados do banco</h1>
+  <button onclick="buscarDados()">Buscar</button>
+  <ul id="resultado"></ul>
+ 
+  <script>
+    function buscarDados() {
+      fetch('/dados')
+        .then(res => res.json())
+        .then(data => {
+          const lista = document.getElementById('resultado');
+          lista.innerHTML = '';
+          data.forEach(item => {
+            const li = document.createElement('li');
+            li.textContent = item.nome; // <- tem que ser "nome"
+            lista.appendChild(li);
+          });
+        });
+    }
+  </script>
+</body>
+ 
+</html>

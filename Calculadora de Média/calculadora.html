@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Média</title>
+</head>
+<body>
+    <script>
+        let nota1 = prompt("Digite sua primeira nota: ")
+        let nota2 = prompt("Digite sua segunda nota: ")
+        let media = (nota1 + nota2) / 2;
+        let mediaArredondada=Math.floor(media);
+        
+        switch (mediaArredondada) {
+            case 0:
+            case 1:
+            case 2:
+            alert("Conceito E");
+            break;
+
+            case 3:
+            case 4:
+            alert("Conceito D");
+            break;
+
+            case 5:
+            case 6:
+            alert("Conceito C");
+            break;
+
+            case 7:
+            case 8:
+            alert("Conceito B");
+            break;
+
+            case 9:
+            case 10:
+            alert("Conceito A");
+            break;
+
+            default:
+            alert("erro");
+        }
+    </script>
+</body>
+</html>

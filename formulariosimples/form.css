@@ -1,0 +1,23 @@
+body {
+    background-color: rgb(197, 240, 226);
+}
+
+.form {
+    margin-top: 100px;
+    display: flex;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 100px;
+}
+
+.form2 {
+    margin-top: 100px;
+    display: flex;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 100px;
+}
+
+label {
+    width: 100px;
+}

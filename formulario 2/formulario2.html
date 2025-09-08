@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formulario2.css">
+    <title>Formulário</title>
+</head>
+<body>
+    <div style="margin-right: 20px;" class="container">
+    <h1>Formulário de Contato</h1>
+    <form>
+        <p>
+           <label for="nome">Nome:</label>
+           <input type="text" id="nome" name="nome">
+        </p>
+
+        <p>
+           <label for="email">E-mail:</label>
+           <input type="text" id="email" name="email">
+        </p>
+
+        <p>
+            <label for="telefone">Telefone:</label>
+            <input type="text" id="telefone" name="telefone">
+         </p>
+
+         <p>
+            <label for="assunto">Assunto:</label>
+            <select id="assunto" name="assunto">
+            <option value="duvida">Dúvida</option>
+            <option value="reclamacao">Reclamação</option>
+            <option value="sugestao">Sugestão</option>
+            </select>
+         </p>
+         <p>
+            <label for="mensagem">Mensagem:</label>
+            <input type="text" id="mensagem"  name="mensagem" style="width: 200pxpx; height: 100px;" >
+         </p>
+         <p>
+            <label for="anexararquivo">Anexar Arquivo:</label>
+            <input type="file" id="anexararquivo" name="anexararquivo" style="border: solid 1px black; padding: 5px;">
+         </p>
+         <p>
+            <label| for="termos">Aceitar Termos e Condições:</label>
+            <input type="checkbox" id="termos" name="termos">
+         </p>
+    </form>
+    <button type="submit">Enviar</button>
+    </div>
+    <div class="container">
+        <h1>Cadastro de Usuário</h1>
+        <form>
+            <p>
+               <label for="nomecompleto">Nome Completo:</label>
+               <input type="text" id="nomecompleto" name="nomecompleto">
+            </p>
+    
+            <p>
+               <label for="email">E-mail:</label>
+               <input type="text" id="email" name="email">
+            </p>
+    
+            <p>
+                <label for="senha">Senha:</label>
+                <input type="text" id="senha" name="senha">
+             </p>
+    
+             <p>
+                <label for="data">Data de nascimento:</label>
+                <input type="date" id="data" name="data">
+             </p>
+             <p>
+                <label for="genero">Gênero:</labe>
+                <select id="genero" name="genero">
+                <option value="feminino">Feminino</option>
+                <option value="feminino">Masculino</option>
+                </select>
+             </p>
+             <p>
+                <label for="cidade">Cidade</label>
+                <input type="text" id="cidade" name="cidade">
+             </p>
+             <p>
+                <label for="estado">Estado</label>
+                <input type="text" id="estado" name="estado">
+             </p>
+             <p>
+                <label| for="termos">Aceitar Termos e Condições:</label>
+                <input type="checkbox" id="termos" name="termos">
+             </p>
+        </form>
+        <button type="submit">Enviar</button>
+        </div>
+
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+</head>
+<body>
+    <script>
+        let nome = prompt("Digite seu nome: ");
+        let idade = parseInt(prompt("Digite sua idade"));
+        let possuiCadastro = false;
+
+        if (idade < 12) {
+            alert("Acesso negado: idade insuficiente");
+        }
+
+        if (idade >= 12 && 17) {
+            alert("Acesso permitido com restrições");
+        }
+        if (idade >= 18) {
+            alert("Acesso permitido");
+        }
+
+        else if (idade <= 18 && possuiCadastro === false) {
+            alert("Você precisa se cadastrar primeiro");
+        }
+
+        else {
+            alert("Acesso negado")
+        }
+
+    </script>
+</body>
+</html>

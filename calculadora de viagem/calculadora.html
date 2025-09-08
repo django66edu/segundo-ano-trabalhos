@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+</head>
+<body>
+    <script>
+        let nome = prompt("Digite seu nome");
+        let distancia = parseInt(prompt("Digite a distancia da viagem em km:"));
+        let velocidade = parseInt(prompt("Digite a velocidade media:"));
+        let consumo = parseInt(prompt("Digite o consumo de litros por km:"));
+        let preco = parseInt(prompt("Digite o preço da gasolina por litro:"))
+
+        let tempo = distancia / velocidade;
+        let litros = distancia / consumo;
+        let gasto = litros * preco;
+
+        alert("O tempo estimado é: " + tempo + "\nO quantida de litros gastos é: " + litros + "\nO gasto de dinheiro é: " + gasto + " reais");
+    </script>
+</body>
+</html>

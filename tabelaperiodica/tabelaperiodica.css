@@ -1,0 +1,125 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td {
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    font-size: 12px;
+    border: 1px solid #ccc;
+    position: relative;
+    padding: 2px;
+    box-sizing: border-box;
+}
+
+td:hover {
+    transform: scale(1.15);
+    transition: transform 0.3s ease;
+    z-index: 1;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.simbolo {
+    font-weight: bold;
+    font-size: 18px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.numero-atomico {
+    position: absolute;
+    top: 2px;
+    left: 4px;
+    font-size: 10px;
+}
+
+.massa-atomica {
+    position: absolute;
+    top: 2px;
+    right: 4px;
+    font-size: 10px;
+}
+
+.nome-do-elemento {
+    position: absolute;
+    bottom: 2px;
+    left: 0;
+    right: 0;
+    font-size: 9px;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding: 0 2px;
+}
+
+.hidrogenio {
+    background-color: rgb(195, 189, 189);
+}
+
+.metal-alcalino {
+    background-color: rgb(189, 6, 189);
+    color: black;
+}
+
+.metal-alcalino-terroso {
+    background-color: rgb(189, 6, 189);
+    color: black;
+}
+
+.metal-transicao {
+    background-color: pink;
+}
+
+.metal-pos-transicao {
+    background-color: rgb(255, 98, 0);
+}
+
+.metaloide {
+    background-color: yellow;
+}
+
+.nao-metal {
+    background-color: orange;
+}
+
+.gas-nobre {
+    background-color: rgb(158, 158, 255);
+}
+
+.lantanideo {
+    background-color: rgb(48, 172, 48);
+}
+
+.actinideo {
+    background-color: greenyellow;
+}
+
+.empty {
+    border: none;
+    background: none;
+}
+
+a {
+    color: black;
+}
+
+
+
+

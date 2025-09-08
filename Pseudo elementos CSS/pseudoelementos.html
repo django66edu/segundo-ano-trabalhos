@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pseudoelementos.css">
+    <title>Combinadores CSS</title>
+</head>
+<body>
+    <div class="conteiner">
+        <h1>Pseudo-elementos CSS - Exemplos</h1>
+     
+        <div class="example">
+            <h2>1. p::first-line</h2>
+            <p><strong>Esta linha ficará com destaque.</strong> O restante do parágrafo mantém o estilo padrão. Você pode ver a diferença ao redimensionar a janela.</p>
+        </div>
+     
+        <div class="example">
+            <h2>2. p::first-letter</h2>
+            <p class="first-letter">A primeira letra deste parágrafo será maior e colorida, simulando o estilo de livros antigos ou revistas.</p>
+        </div>
+     
+        <div class="example">
+            <h2>3. p::before</h2>
+            <p class="before">Este parágrafo possui um símbolo adicionado antes do seu conteúdo com <code>::before</code>.</p>
+        </div>
+     
+        <div class="example">
+            <h2>4. p::after</h2>
+            <p class="after">Este parágrafo adiciona um ícone no final usando <code>::after</code>. <span style="color: #5cb85c;">✔</span></p>
+        </div>
+     
+        <div class="example">
+            <h2>5. p::selection</h2>
+            <p>Selecione este texto com o mouse para ver o efeito do pseudo-elemento <code>::selection</code>.</p>
+        </div>
+    </div>
+</body>
+</html>

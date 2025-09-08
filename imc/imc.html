@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMC</title>
+</head>
+<body>
+    <script>
+        let peso = parseFloat(prompt("Informe seu peso em kg: "));
+        let  altura = parseFloat(prompt("Informe sua altura em metros: "));
+        let imc = peso/(altura*altura);
+
+        if (imc < 18.5) {
+            alert("Abaixo do peso")
+        }
+        if (imc >= 18.5 && imc < 24.9) {
+            alert("Peso normal ")
+        }
+
+        if (imc >= 25 && imc < 29.9) {
+            alert("Sobrepeso")
+        }
+
+        if (imc >= 30 && imc <= 34.9) {
+            alert("Obesidade grau 1")
+        }
+
+        if (imc >= 35 && imc <= 39.9) {
+            alert("Obesidade grau 2")
+        }
+
+        if (imc >= 40) {
+            alert("Obesidade grau 3")
+        }
+
+        alert("Seu resultado é: " + imc.toFixed(2));
+
+       
+
+    </script>
+</body>
+</html>

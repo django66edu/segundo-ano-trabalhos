@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="idade.css">
+    <title>Idade e Classificação</title>
+</head>
+<body>
+    <div>
+    
+    <h1>Calculadora de Idade e Classificação:</h1>
+    
+    <p>Ano de nascimento:</p>
+    <input type="text" id="bornyear" placeholder="Digite seu ano de nascimento: ">
+    <p>Ano atual:</p>
+    <input type="text" id="actualyear" placeholder="Digite o ano atual: ">
+    <button onclick="calculo()">Enviar</button>
+    <p id="resultado"></p>
+    
+    </div>
+
+    <script>
+        function calculo() {
+            let anonascimento = document.getElementById("bornyear").value;
+            let anoatual =document.getElementById("actualyear").value;
+            let categoria;
+            let idade = (anoatual - anonascimento);
+
+            if (idade < 12) {
+                categoria = "Criança.";
+            }
+
+            else if (idade > 12 && idade <= 17) {
+                categoria = "Adolescente."
+            }
+
+            else if (idade >= 18 && idade <= 59) {
+                categoria = "Adulto.";
+            }
+
+            else if (idade >= 60) {
+                categoria = "Idoso.";
+            }
+
+            else {
+                categoria = "Inválido, digite corretamente."
+            }
+
+            document.getElementById("resultado").innerText= "Você tem " + idade + " anos, você é " + categoria;
+
+        }
+        
+    </script>
+
+</body>
+</html>

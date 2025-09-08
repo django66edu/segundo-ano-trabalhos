@@ -1,0 +1,39 @@
+body {
+    background-color: #ff5656;
+}
+
+th, td {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    background-color: #ffecf4;
+}
+
+tr {
+    background-color: rgb(255, 230, 230);
+}
+
+.calendario-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-content: center;
+    padding: 100px;
+}
+
+.tabela-mes {
+    border-collapse: collapse;
+    width: 22px;
+    margin: 10px;
+}
+
+div {
+    margin-top: 10px;
+}
+
+.evento {
+    background-color: #ff5656;
+}
+

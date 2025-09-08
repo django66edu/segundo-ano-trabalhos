@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffbaba;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+  }
+   
+  .container {
+    background-color: #ff9797;
+    padding: 30px;
+    margin-top: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 400px;
+  }
+   
+  h1 {
+    text-align: center;
+    margin-bottom: 25px;
+  }
+   
+  form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+   
+  form input[type="date"],
+  form input[type="text"],
+  form input[type="email"],
+  form input[type="number"],
+  form select,
+  form textarea,
+  form input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ffbaba;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+  }
+   
+  form textarea {
+    resize: vertical;
+    height: 100px;
+  }
+   
+  .checkbox-container {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 20px;
+  }
+   
+  button {
+    width: 100%;
+    padding: 12px;
+    background-color: rgb(0, 255, 0);
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+  }
+   
+  button:hover {
+    background-color: lightgreen;
+  }
+
+  div {
+    margin-bottom: 45px;
+  }

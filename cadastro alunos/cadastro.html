@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro Alunos</title>
+</head>
+
+<body>
+    <div>
+        <h1>Formulário dos Alunos: Desempenho escolar</h1>
+        <button onclick="formulario()">Iniciar cadastro</button>
+        <div id="resultado"></div>
+    </div>
+
+    <script>
+        function formulario() {
+
+            let qtd = parseInt(prompt("numero alunos"));
+
+            let resultado = document.getElementById("resultado");
+
+            for (let i = 1; i <= qtd; i++) {
+                //nome aluno
+                //nota 1
+                //nota 2
+                //media
+
+                let nome = prompt("Aluno: ");
+                let n1 = parseInt(prompt("nota 1: "));
+                let n2 = parseInt(prompt("nota 2: "));
+                let media = (n1 + n2) / 2;
+                let situacao = media >= 6 ? "Aprovado" : "Reprovado";
+
+                resultado.innerHTML += `<p><strong>${nome}</strong>: Média = ${media.toFixed(2)} - <span style="color:${situacao === 'Aprovado' ? 'green' : 'red'}">${situacao}</span></p>`;
+            }
+            while (n1 > 10 && n2 > 10 && media > 10) {
+                prompt("inválido");
+            }
+        }
+
+        
+
+
+    </script>
+</body>
+
+</html>
